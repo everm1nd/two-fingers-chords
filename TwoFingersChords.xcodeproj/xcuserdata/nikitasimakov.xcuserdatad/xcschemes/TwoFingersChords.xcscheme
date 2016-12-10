@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A75785E51DFC40D600EAD2CE"
+               BuildableName = "TwoFingersChords.app"
+               BlueprintName = "TwoFingersChords"
+               ReferencedContainer = "container:TwoFingersChords.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A75785F91DFC40D600EAD2CE"
+               BuildableName = "TwoFingersChordsTests.xctest"
+               BlueprintName = "TwoFingersChordsTests"
+               ReferencedContainer = "container:TwoFingersChords.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "A75786041DFC40D600EAD2CE"
+               BuildableName = "TwoFingersChordsUITests.xctest"
+               BlueprintName = "TwoFingersChordsUITests"
+               ReferencedContainer = "container:TwoFingersChords.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A75785E51DFC40D600EAD2CE"
+            BuildableName = "TwoFingersChords.app"
+            BlueprintName = "TwoFingersChords"
+            ReferencedContainer = "container:TwoFingersChords.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A75785E51DFC40D600EAD2CE"
+            BuildableName = "TwoFingersChords.app"
+            BlueprintName = "TwoFingersChords"
+            ReferencedContainer = "container:TwoFingersChords.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A75785E51DFC40D600EAD2CE"
+            BuildableName = "TwoFingersChords.app"
+            BlueprintName = "TwoFingersChords"
+            ReferencedContainer = "container:TwoFingersChords.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
