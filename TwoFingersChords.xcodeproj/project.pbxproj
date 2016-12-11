@@ -15,6 +15,7 @@
 		A75785F41DFC40D600EAD2CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A75785F21DFC40D600EAD2CE /* LaunchScreen.storyboard */; };
 		A75785FF1DFC40D600EAD2CE /* TwoFingersChordsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75785FE1DFC40D600EAD2CE /* TwoFingersChordsTests.swift */; };
 		A757860A1DFC40D600EAD2CE /* TwoFingersChordsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75786091DFC40D600EAD2CE /* TwoFingersChordsUITests.swift */; };
+		A75786181DFC4CE600EAD2CE /* NoteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75786171DFC4CE600EAD2CE /* NoteButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		A75786051DFC40D600EAD2CE /* TwoFingersChordsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwoFingersChordsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A75786091DFC40D600EAD2CE /* TwoFingersChordsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoFingersChordsUITests.swift; sourceTree = "<group>"; };
 		A757860B1DFC40D600EAD2CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A75786171DFC4CE600EAD2CE /* NoteButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteButton.swift; sourceTree = "<group>"; };
 		AF931915FF00100E38A58C54 /* Pods-TwoFingersChords.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwoFingersChords.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TwoFingersChords/Pods-TwoFingersChords.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -124,6 +126,7 @@
 				A75785E91DFC40D600EAD2CE /* AppDelegate.swift */,
 				A75785EB1DFC40D600EAD2CE /* ViewController.swift */,
 				A75785ED1DFC40D600EAD2CE /* Main.storyboard */,
+				A75786171DFC4CE600EAD2CE /* NoteButton.swift */,
 				A75785F01DFC40D600EAD2CE /* Assets.xcassets */,
 				A75785F21DFC40D600EAD2CE /* LaunchScreen.storyboard */,
 				A75785F51DFC40D600EAD2CE /* Info.plist */,
@@ -338,6 +341,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A75785EC1DFC40D600EAD2CE /* ViewController.swift in Sources */,
+				A75786181DFC4CE600EAD2CE /* NoteButton.swift in Sources */,
 				A75785EA1DFC40D600EAD2CE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

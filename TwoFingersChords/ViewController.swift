@@ -20,6 +20,17 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func chordButtonDown(_ sender: UIButton) {
+        debugPrint("chord: ", sender.currentTitle!)
+    }
 
+    @IBAction func noteButtonDown(_ sender: UIButton) {
+        debugPrint("note down:", sender.currentTitle!)
+    }
+    
+    @IBAction func noteButtonUp(_ sender: UIButton) {
+        debugPrint("note up:", sender.currentTitle!)
+    }
+    
 }
 
