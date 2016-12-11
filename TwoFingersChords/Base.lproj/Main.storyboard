@@ -94,7 +94,7 @@
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zib-PU-BCe">
                                                         <rect key="frame" x="0.0" y="0.0" width="167" height="94"/>
-                                                        <state key="normal" title="B3"/>
+                                                        <state key="normal" title="B2"/>
                                                         <connections>
                                                             <action selector="noteButtonDown:" destination="BYZ-38-t0r" eventType="touchDown" id="7kd-Rd-CWb"/>
                                                             <action selector="noteButtonUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9Oh-Ca-Nxc"/>
@@ -126,7 +126,7 @@
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K3J-K9-ojR">
                                                         <rect key="frame" x="167" y="0.0" width="166.5" height="93.5"/>
-                                                        <state key="normal" title="A3"/>
+                                                        <state key="normal" title="A2"/>
                                                         <connections>
                                                             <action selector="noteButtonDown:" destination="BYZ-38-t0r" eventType="touchDown" id="VBT-A0-Q8D"/>
                                                             <action selector="noteButtonUp:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="G9j-f5-fdG"/>
