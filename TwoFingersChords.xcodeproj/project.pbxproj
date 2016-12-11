@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A706E6D11DFDF169005B1C5D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = A706E6D01DFDF169005B1C5D /* README.md */; };
 		A75785EA1DFC40D600EAD2CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75785E91DFC40D600EAD2CE /* AppDelegate.swift */; };
 		A75785EC1DFC40D600EAD2CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75785EB1DFC40D600EAD2CE /* ViewController.swift */; };
 		A75785EF1DFC40D600EAD2CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A75785ED1DFC40D600EAD2CE /* Main.storyboard */; };
@@ -43,6 +44,7 @@
 		1978289740D30AA0B9C97767 /* Pods_TwoFingersChords.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwoFingersChords.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D64C9C279304D0C0EB3E1F7 /* Pods-TwoFingersChords.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwoFingersChords.release.xcconfig"; path = "Pods/Target Support Files/Pods-TwoFingersChords/Pods-TwoFingersChords.release.xcconfig"; sourceTree = "<group>"; };
 		37C42B25601898B8A55D0410 /* Pods-TwoFingersChordsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwoFingersChordsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TwoFingersChordsTests/Pods-TwoFingersChordsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A706E6D01DFDF169005B1C5D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A75785E61DFC40D600EAD2CE /* TwoFingersChords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwoFingersChords.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A75785E91DFC40D600EAD2CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A75785EB1DFC40D600EAD2CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 		A75785DD1DFC40D600EAD2CE = {
 			isa = PBXGroup;
 			children = (
+				A706E6D01DFDF169005B1C5D /* README.md */,
 				A75785E81DFC40D600EAD2CE /* TwoFingersChords */,
 				A75785FD1DFC40D600EAD2CE /* TwoFingersChordsTests */,
 				A75786081DFC40D600EAD2CE /* TwoFingersChordsUITests */,
@@ -404,6 +407,7 @@
 			files = (
 				A75785EC1DFC40D600EAD2CE /* ViewController.swift in Sources */,
 				A75786181DFC4CE600EAD2CE /* NoteButton.swift in Sources */,
+				A706E6D11DFDF169005B1C5D /* README.md in Sources */,
 				A75785EA1DFC40D600EAD2CE /* AppDelegate.swift in Sources */,
 				A797BFB31DFD91F200C141EC /* Note.swift in Sources */,
 			);
