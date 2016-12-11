@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		60BBDEFC8599872529A88C7B /* libPods-TwoFingersChords.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78071FE9026CB343E1FFD5FA /* libPods-TwoFingersChords.a */; };
 		A75785EA1DFC40D600EAD2CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75785E91DFC40D600EAD2CE /* AppDelegate.swift */; };
 		A75785EC1DFC40D600EAD2CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75785EB1DFC40D600EAD2CE /* ViewController.swift */; };
 		A75785EF1DFC40D600EAD2CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A75785ED1DFC40D600EAD2CE /* Main.storyboard */; };
@@ -17,6 +16,9 @@
 		A757860A1DFC40D600EAD2CE /* TwoFingersChordsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75786091DFC40D600EAD2CE /* TwoFingersChordsUITests.swift */; };
 		A75786181DFC4CE600EAD2CE /* NoteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75786171DFC4CE600EAD2CE /* NoteButton.swift */; };
 		A797BFB31DFD91F200C141EC /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = A797BFB21DFD91F200C141EC /* Note.swift */; };
+		A797BFB51DFDD2A500C141EC /* NoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A797BFB41DFDD2A500C141EC /* NoteTests.swift */; };
+		C36238183AB7BAE1F86307AB /* Pods_TwoFingersChordsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09749519368DCE392B23C5A3 /* Pods_TwoFingersChordsTests.framework */; };
+		F6CDA54348513236D66C5067 /* Pods_TwoFingersChords.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1978289740D30AA0B9C97767 /* Pods_TwoFingersChords.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09749519368DCE392B23C5A3 /* Pods_TwoFingersChordsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwoFingersChordsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1978289740D30AA0B9C97767 /* Pods_TwoFingersChords.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TwoFingersChords.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D64C9C279304D0C0EB3E1F7 /* Pods-TwoFingersChords.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwoFingersChords.release.xcconfig"; path = "Pods/Target Support Files/Pods-TwoFingersChords/Pods-TwoFingersChords.release.xcconfig"; sourceTree = "<group>"; };
-		78071FE9026CB343E1FFD5FA /* libPods-TwoFingersChords.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TwoFingersChords.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37C42B25601898B8A55D0410 /* Pods-TwoFingersChordsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwoFingersChordsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TwoFingersChordsTests/Pods-TwoFingersChordsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A75785E61DFC40D600EAD2CE /* TwoFingersChords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwoFingersChords.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A75785E91DFC40D600EAD2CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A75785EB1DFC40D600EAD2CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,7 +58,9 @@
 		A757860B1DFC40D600EAD2CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A75786171DFC4CE600EAD2CE /* NoteButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteButton.swift; sourceTree = "<group>"; };
 		A797BFB21DFD91F200C141EC /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		A797BFB41DFDD2A500C141EC /* NoteTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteTests.swift; sourceTree = "<group>"; };
 		AF931915FF00100E38A58C54 /* Pods-TwoFingersChords.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwoFingersChords.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TwoFingersChords/Pods-TwoFingersChords.debug.xcconfig"; sourceTree = "<group>"; };
+		E40C7805A1D2B20708D12591 /* Pods-TwoFingersChordsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TwoFingersChordsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TwoFingersChordsTests/Pods-TwoFingersChordsTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60BBDEFC8599872529A88C7B /* libPods-TwoFingersChords.a in Frameworks */,
+				F6CDA54348513236D66C5067 /* Pods_TwoFingersChords.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C36238183AB7BAE1F86307AB /* Pods_TwoFingersChordsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +93,8 @@
 		4B8471109C93C8F6CDD4C636 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				78071FE9026CB343E1FFD5FA /* libPods-TwoFingersChords.a */,
+				1978289740D30AA0B9C97767 /* Pods_TwoFingersChords.framework */,
+				09749519368DCE392B23C5A3 /* Pods_TwoFingersChordsTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -96,6 +104,8 @@
 			children = (
 				AF931915FF00100E38A58C54 /* Pods-TwoFingersChords.debug.xcconfig */,
 				1D64C9C279304D0C0EB3E1F7 /* Pods-TwoFingersChords.release.xcconfig */,
+				37C42B25601898B8A55D0410 /* Pods-TwoFingersChordsTests.debug.xcconfig */,
+				E40C7805A1D2B20708D12591 /* Pods-TwoFingersChordsTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -141,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				A75785FE1DFC40D600EAD2CE /* TwoFingersChordsTests.swift */,
+				A797BFB41DFDD2A500C141EC /* NoteTests.swift */,
 				A75786001DFC40D600EAD2CE /* Info.plist */,
 			);
 			path = TwoFingersChordsTests;
@@ -182,9 +193,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A75786111DFC40D600EAD2CE /* Build configuration list for PBXNativeTarget "TwoFingersChordsTests" */;
 			buildPhases = (
+				F0E295B6E6A80975028EEE66 /* [CP] Check Pods Manifest.lock */,
 				A75785F61DFC40D600EAD2CE /* Sources */,
 				A75785F71DFC40D600EAD2CE /* Frameworks */,
 				A75785F81DFC40D600EAD2CE /* Resources */,
+				18CBB4DA04BCCB3F807C65F3 /* [CP] Embed Pods Frameworks */,
+				52F768AD6F582A4088E0B134 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -291,6 +305,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		18CBB4DA04BCCB3F807C65F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TwoFingersChordsTests/Pods-TwoFingersChordsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		24508E49503847CE1AC5C0C4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -304,6 +333,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		52F768AD6F582A4088E0B134 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TwoFingersChordsTests/Pods-TwoFingersChordsTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A63FEA5109C08A5ABF43943C /* [CP] Embed Pods Frameworks */ = {
@@ -336,6 +380,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TwoFingersChords/Pods-TwoFingersChords-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F0E295B6E6A80975028EEE66 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -355,6 +414,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A75785FF1DFC40D600EAD2CE /* TwoFingersChordsTests.swift in Sources */,
+				A797BFB51DFDD2A500C141EC /* NoteTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,6 +561,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = YM8448YC7Q;
 				INFOPLIST_FILE = TwoFingersChords/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = everm1nd.inc.TwoFingersChords;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -515,6 +576,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = YM8448YC7Q;
 				INFOPLIST_FILE = TwoFingersChords/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = everm1nd.inc.TwoFingersChords;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -524,6 +586,7 @@
 		};
 		A75786121DFC40D600EAD2CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37C42B25601898B8A55D0410 /* Pods-TwoFingersChordsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -539,6 +602,7 @@
 		};
 		A75786131DFC40D600EAD2CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E40C7805A1D2B20708D12591 /* Pods-TwoFingersChordsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
