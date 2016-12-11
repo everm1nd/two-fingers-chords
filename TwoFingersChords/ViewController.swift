@@ -31,22 +31,12 @@ class ViewController: UIViewController {
 
     @IBAction func noteButtonDown(_ sender: UIButton) {
 //        debugPrint("note down:", sender.currentTitle!)
-        midi.sendNoteOnMessage(noteNumber: noteNameToCode(sender.currentTitle!), velocity: 100)
+        midi.sendNoteOnMessage(noteNumber: Note(sender.currentTitle!).toMidiNote, velocity: 100)
     }
     
     @IBAction func noteButtonUp(_ sender: UIButton) {
 //        debugPrint("note up:", sender.currentTitle!)
-        midi.sendNoteOffMessage(noteNumber: noteNameToCode(sender.currentTitle!), velocity: 100)
-    }
-    
-    private func noteNameToCode(_ name: String) -> Int {
-        let offset = ["C":0, "C#":1, "D":2, "D#":3, "E":4, "F":5, "F#":6, "G":7, "G#":8, "A":9, "A#":10, "B":11]
-        let octave = Int(String(name.characters.last!))! // last character represents octave
-        let note = String(name.characters.dropLast()) // find 1 or 2 characters represent note
-        
-        debugPrint(note, octave, (octave * 12 + offset[note]!))
-        
-        return octave * 12 + offset[note]!
+        midi.sendNoteOffMessage(noteNumber: Note(sender.currentTitle!).toMidiNote, velocity: 100)
     }
     
 }
